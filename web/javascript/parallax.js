@@ -11,6 +11,6 @@ $.fn.parallax = function ( resistance, mouse )
 
 $(document).mousemove(function (e) {
     $('.background').parallax(-5, e);
-    $('.cloud2').parallax(30, e);
+    $('.cloud2').parallax(-30, e);
     $('.cloud3').parallax(3, e);
 });
